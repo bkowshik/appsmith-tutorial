@@ -1,0 +1,4 @@
+UPDATE 
+SET name = 'Test Name',
+    dob = '2024-12-31'
+WHERE "id" = 1;
