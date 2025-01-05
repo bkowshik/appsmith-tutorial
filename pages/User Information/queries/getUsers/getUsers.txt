@@ -1,3 +1,4 @@
-SELECT name, gender, country, email, phone, dob, latitude, longitude
+SELECT  id, name, gender, country, email, phone, dob, latitude, longitude, image
 FROM public."users"
-ORDER BY name;
+ORDER BY name
+LIMIT 25;

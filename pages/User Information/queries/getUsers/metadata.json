@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT name, gender, country, email, phone, dob, latitude, longitude\nFROM public.\"users\"\nORDER BY name;\n",
+      "body": "SELECT  id, name, gender, country, email, phone, dob, latitude, longitude, image\nFROM public.\"users\"\nORDER BY name\nLIMIT 25;\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
